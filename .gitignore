@@ -10,3 +10,5 @@ public/analysis-workers/
 
 data/
 .cache/
+
+public/prepared-market/

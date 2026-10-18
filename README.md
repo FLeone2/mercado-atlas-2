@@ -68,3 +68,5 @@ Durante a implementação passaram o build, a integridade da base, 32 arquivos d
 A checagem profunda encontrou IDs repetidos e seções ainda não preparadas no percurso automatizado. Foram aplicados IDs distintos e uma verificação de proximidade complementar ao IntersectionObserver. A repetição completa dessa checagem e a confirmação de todas as variantes permanecem necessárias; não há declaração de paridade total em runtime.
 
 Os budgets de bundle, Core Web Vitals, p95 de consultas, auditoria AA completa e iPad real não estão certificados. Parte do escopo concatenado legado permanece; a separação de workers e chunks é uma etapa da modularização prevista, sem concluir todo o plano de performance. Não há desempenho em campo inventado ou promessa percentual.
+
+A abertura também utiliza cinco consultas preparadas no build, com conferência do manifesto e retorno automático ao worker para outros recortes. A medição de laboratório e as verificações estão em [docs/loading-performance.md](docs/loading-performance.md).

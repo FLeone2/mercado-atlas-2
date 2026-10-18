@@ -1832,6 +1832,7 @@ function getBase(snapshot){return new URL(snapshot?.marketDataBase??'data/',glob
 /*@include ./modules/evolution-years.js*/
 /*@include ./modules/animations.js*/
 /*@include ./modules/query-service.js*/
+/*@include ./modules/prepared-market.js*/
 /*@include ./modules/performance-ui.js*/
 /*@include ./modules/territory-brand-maps.js*/
 /*@include ./modules/overview-insights.js*/
@@ -1854,7 +1855,19 @@ function useMarketData(filters,enabled,mode,reportBusy=true){const shell=dataApp
  const signature=canonicalFilterKey(filters),includeCatalog=['catalog','primary-map'].includes(mode),includeMarketBaseline=['technology','origin'].includes(mode),includeHistoryComparisons=mode==='history',includeChannelReference=['geography','primary-map'].includes(mode),includeOriginAnalysis=mode==='origin',includeMitsubishiProfile=['competition','ranking','segments'].includes(mode),base=getBase(shell.snapshot),requestKey=React.useMemo(()=>({includeInteractive,includeDaily,includeMunicipalLeaders,includeFlow,manifest,signature,base,includeMarketBaseline,includeHistoryComparisons,includeChannelReference,includeOriginAnalysis,includeMitsubishiProfile,includeCatalog}),[includeInteractive,includeDaily,includeMunicipalLeaders,includeFlow,manifest,signature,base,includeMarketBaseline,includeHistoryComparisons,includeChannelReference,includeOriginAnalysis,includeMitsubishiProfile,includeCatalog]);
  React.useEffect(()=>{let alive=true;const controller=new AbortController();sharedMarketManifest(base).then(m=>{if(alive)setManifest(m);}).catch(e=>{if(alive&&e.name!=='AbortError'){setManifestError(e.message);if(shell.snapshot.marketManifest)setManifest(fallbackManifestFromSnapshot(shell.snapshot));else setState(s=>({...s,pending:false,error:'Os dados ainda não estão disponíveis neste ambiente.'}));}});return ()=>{alive=false;controller.abort();};},[base]);
  React.useEffect(()=>{try{worker.current=createSharedQueryWorker(()=>new InlineCalculationWorker$1(),'market');worker.current.onmessage=({data})=>{if(data.id!==sequence.current)return;if(data.progress)setState(s=>({...s,progress:data.progress}));else setState({result:hideUnclassified(data.result??null),pending:false,progress:null,error:data.error??null,key:activeRequest.current});};worker.current.onerror=()=>setState({result:null,pending:false,progress:null,error:'Não foi possível concluir a consulta local. Recarregue para tentar novamente.',key:activeRequest.current});}catch{worker.current=null;setState({result:null,pending:false,progress:null,error:'Este navegador não iniciou a consulta local. Recarregue ou tente um navegador atualizado.',key:activeRequest.current});}return ()=>worker.current?.terminate();},[]);
- React.useEffect(()=>{if(!enabled){sequence.current++;try{worker.current?.postMessage({type:'cancel'});}catch{}return;}if(!manifest)return;const id=++sequence.current;activeRequest.current=requestKey;if(!worker.current){setState({result:null,pending:false,progress:null,error:'Este navegador não iniciou a consulta local. Recarregue ou tente um navegador atualizado.',key:requestKey});return;}setState({result:null,pending:true,error:null,progress:null,key:requestKey});try{worker.current.postMessage({id,includeInteractive,includeDaily,includeMunicipalLeaders,includeFlow,manifest,filters,base,includeMarketBaseline,includeHistoryComparisons,includeChannelReference,includeOriginAnalysis,includeMitsubishiProfile,includeCatalog});}catch{setState({result:null,pending:false,progress:null,error:'Não foi possível iniciar a consulta local. Recarregue para tentar novamente.',key:requestKey});}},[requestKey,enabled]);
+ React.useEffect(()=>{
+  if(!enabled||!manifest)return;
+  const id=++sequence.current;activeRequest.current=requestKey;
+  setState({result:null,pending:true,error:null,progress:null,key:requestKey});
+  const request={id,includeInteractive,includeDaily,includeMunicipalLeaders,includeFlow,manifest,filters,base,includeMarketBaseline,includeHistoryComparisons,includeChannelReference,includeOriginAnalysis,includeMitsubishiProfile,includeCatalog};
+  loadPreparedMarket(request,shell.snapshot?.preparedMarket).then(result=>{
+   if(sequence.current!==id)return;
+   if(result){setState({result:hideUnclassified(result),pending:false,error:null,progress:null,key:requestKey});return;}
+   try{if(!worker.current)throw Error('Worker unavailable');worker.current.postMessage(request);}
+   catch{setState({result:null,pending:false,progress:null,error:'Não foi possível iniciar a consulta local. Recarregue para tentar novamente.',key:requestKey});}
+  });
+  return ()=>{sequence.current++;try{worker.current?.postMessage({type:'cancel'});}catch{}};
+ },[requestKey,enabled]);
  const visible=enabled&&manifest&&state.key!==requestKey?{result:null,pending:true,progress:null,error:null}:state;
  React.useEffect(()=>{if(!reportBusy)return;shell.setDashboardBusy?.(enabled&&visible.pending);return ()=>shell.setDashboardBusy?.(false);},[visible.pending,enabled,reportBusy]);
  return {...visible,requestKey,manifest,manifestError,acceptManifest:setManifest};}
