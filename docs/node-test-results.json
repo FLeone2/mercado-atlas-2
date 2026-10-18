@@ -1,0 +1,152 @@
+[
+  {
+    "test": "animations-data.test.cjs",
+    "code": 0,
+    "output": " YTD (492.496234ms)\n\u2139 tests 15\n\u2139 suites 0\n\u2139 pass 15\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 707.20526\n"
+  },
+  {
+    "test": "animations-granularity.test.cjs",
+    "code": 0,
+    "output": "ngle point (2.9123ms)\n\u2139 tests 4\n\u2139 suites 0\n\u2139 pass 4\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 43.808812\n"
+  },
+  {
+    "test": "animations-month-cache-real.test.cjs",
+    "code": 0,
+    "output": "persistentHits\":0}}\n\u2139 tests 1\n\u2139 suites 0\n\u2139 pass 1\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 1305.719866\n"
+  },
+  {
+    "test": "animations-month-cache.test.cjs",
+    "code": 0,
+    "output": "he write (1.207673ms)\n\u2139 tests 7\n\u2139 suites 0\n\u2139 pass 7\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 91.629423\n"
+  },
+  {
+    "test": "animations-real-source.test.cjs",
+    "code": 0,
+    "output": "hi\": 365,\n  \"municipalities\": 629,\n  \"municipalitiesMatched\": 615,\n  \"suvMid\": 20846,\n  \"unknownChannels2016\": 149699\n}\n"
+  },
+  {
+    "test": "animations-worker.test.cjs",
+    "code": 0,
+    "output": "eviction (0.221912ms)\n\u2139 tests 8\n\u2139 suites 0\n\u2139 pass 8\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 54.124214\n"
+  },
+  {
+    "test": "catalog-real-source.test.cjs",
+    "code": 0,
+    "output": "dered nodes\nPASS actual embedded-worker September source to all 13 renderers, exact totals and finite bounded geometry.\n"
+  },
+  {
+    "test": "catalog-worker.test.cjs",
+    "code": 0,
+    "output": "l catalog conservation, exact intersections, scope, prior year, missing months, zero, retained names and hard capacity.\n"
+  },
+  {
+    "test": "data-baseline.test.cjs",
+    "code": 0,
+    "output": "PASS data identical to the baseline\n"
+  },
+  {
+    "test": "display-filters.test.cjs",
+    "code": 0,
+    "output": "PASS display filters: unclassified rows hidden from category lists, totals and shares untouched.\n"
+  },
+  {
+    "test": "evolution-brush.test.cjs",
+    "code": 0,
+    "output": "o global mutation.\nPASS: year and day granularity series, partial-year labels, single-year point and daily composition.\n"
+  },
+  {
+    "test": "evolution-years-period.test.cjs",
+    "code": 0,
+    "output": "rs, source/global end caps, manifest choices, exact null/zero/CSV parity, empty and rapid manual/preset changes passed.\n"
+  },
+  {
+    "test": "evolution-years.test.cjs",
+    "code": 0,
+    "output": ": filter isolation, null gaps, partial years, common coverage, selection, focus, accessibility and audit export passed.\n"
+  },
+  {
+    "test": "flow-real-source.test.cjs",
+    "code": 0,
+    "output": "PASS flow: paths equal the origin cube (origin, channel, fuel, vehicle type), filters compose. Imported share 21.4%\n"
+  },
+  {
+    "test": "flow-sankey.test.cjs",
+    "code": 0,
+    "output": "PASS flow sankey: columns sum to the total, fixed orders, Outros, conserved ribbons, numeric geometry.\n"
+  },
+  {
+    "test": "history-aggregates.test.cjs",
+    "code": 0,
+    "output": "PASS history aggregates: 129 months, exact cube totals (national and UF files), Mitsubishi identity and worker labels.\n"
+  },
+  {
+    "test": "history-analyses.test.cjs",
+    "code": 0,
+    "output": "PASS history analyses: exact market/mix/performance decomposition, seasonal model, model-group totals.\n"
+  },
+  {
+    "test": "history-data.test.cjs",
+    "code": 0,
+    "output": "PASS history data: business days, file plans with ignored filters, real-file filters and regional mapping.\n"
+  },
+  {
+    "test": "interactive-real-source.test.cjs",
+    "code": 0,
+    "output": " four exact weighted compositions, local brush summaries, common September annual totals, replacement and cancellation.\n"
+  },
+  {
+    "test": "interactive-worker.test.cjs",
+    "code": 0,
+    "output": "es, complete/partial/missing coverage, exact date/brand/body/segment/fuel filters, two years and lazy cache separation.\n"
+  },
+  {
+    "test": "kit.test.cjs",
+    "code": 0,
+    "output": "PASS kit\n"
+  },
+  {
+    "test": "leader-map.test.cjs",
+    "code": 0,
+    "output": "der map: name bridging, aggregation, ties, thresholds and >98.5% volume coverage on real outlines (SP, MG, BA, RS, MT).\n"
+  },
+  {
+    "test": "monthly-aggregate-cache-real.test.cjs",
+    "code": 0,
+    "output": "ote\": \"Production structuredClone and bounded memory fallback verified; browser IndexedDB is covered separately.\"\n  }\n}\n"
+  },
+  {
+    "test": "monthly-aggregate-cache.test.cjs",
+    "code": 0,
+    "output": "l days, comparisons, unknown/zero/missing values, incremental loads, persistence fallback/versioning, LRU and overflow.\n"
+  },
+  {
+    "test": "municipal-filter-regression.test.cjs",
+    "code": 0,
+    "output": "6: 29,320 source = filtered KPI = daily evolution = brands; exact spelling, legacy URL repair and mismatched-UF safety.\n"
+  },
+  {
+    "test": "municipal-leaders-real-source.test.cjs",
+    "code": 0,
+    "output": "PASS municipal leaders: municipality \u00d7 brand equals the cube for MG, composes with channel, leader of BH = FIAT\n"
+  },
+  {
+    "test": "performance-cache.test.cjs",
+    "code": 0,
+    "output": "startup (3.243712ms)\n\u2139 tests 12\n\u2139 suites 0\n\u2139 pass 12\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 64.85559\n"
+  },
+  {
+    "test": "period-shortcuts.test.cjs",
+    "code": 0,
+    "output": "PASS period shortcuts: 2026-01-01..2026-09-30 \u00b7 2026-09-01..2026-09-30\n"
+  },
+  {
+    "test": "primary-map-state.test.cjs",
+    "code": 0,
+    "output": "S primary map URL round-trip, independent tab contexts, legacy query/hash preservation and malformed payload rejection.\n"
+  },
+  {
+    "test": "query-service.test.cjs",
+    "code": 0,
+    "output": "le reply (0.258236ms)\n\u2139 tests 3\n\u2139 suites 0\n\u2139 pass 3\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 10.844309\n"
+  }
+]

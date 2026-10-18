@@ -1,0 +1,119 @@
+﻿id_ocorrencia,id_familia,origem,variante_ou_controle,destino,evidencia_e_limite,status
+F107.history.heatmap,F107,history,heatmap,/evolucao#catalogo-history-heatmap,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F100.history.bump,F100,history,bump,/evolucao#catalogo-history-bump,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F101.competition.slope,F101,competition,slope,/concorrencia#catalogo-competition-slope,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F110.competition.bubble,F110,competition,bubble,/concorrencia#catalogo-competition-bubble,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F111.competition.waterfall,F111,competition,waterfall,/concorrencia#catalogo-competition-waterfall,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F100.competition.bump,F100,competition,bump,/concorrencia#catalogo-competition-bump,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F101.ranking.slope,F101,ranking,slope,/concorrencia#catalogo-ranking-slope,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F100.ranking.bump,F100,ranking,bump,/concorrencia#catalogo-ranking-bump,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F103.segments.marimekko,F103,segments,marimekko,/composicao#catalogo-segments-marimekko,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F109.segments.sankey,F109,segments,sankey,/composicao#catalogo-segments-sankey,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F103.structure.marimekko,F103,structure,marimekko,/composicao#catalogo-structure-marimekko,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F109.structure.sankey,F109,structure,sankey,/composicao#catalogo-structure-sankey,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F100.explore.bump,F100,explore,bump,/estudio#catalogo-explore-bump,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F101.explore.slope,F101,explore,slope,/estudio#catalogo-explore-slope,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F102.explore.dumbbell,F102,explore,dumbbell,/estudio#catalogo-explore-dumbbell,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F103.explore.marimekko,F103,explore,marimekko,/estudio#catalogo-explore-marimekko,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F104.explore.treemap,F104,explore,treemap,/estudio#catalogo-explore-treemap,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F105.explore.waffle,F105,explore,waffle,/estudio#catalogo-explore-waffle,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F106.explore.stacked-area,F106,explore,stacked-area,/estudio#catalogo-explore-stacked-area,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F107.explore.heatmap,F107,explore,heatmap,/estudio#catalogo-explore-heatmap,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F108.explore.diverging,F108,explore,diverging,/estudio#catalogo-explore-diverging,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F109.explore.sankey,F109,explore,sankey,/estudio#catalogo-explore-sankey,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F110.explore.bubble,F110,explore,bubble,/estudio#catalogo-explore-bubble,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F111.explore.waterfall,F111,explore,waterfall,/estudio#catalogo-explore-waterfall,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F112.explore.pareto,F112,explore,pareto,/estudio#catalogo-explore-pareto,Formato de CATALOG_AREAS confirmado por código; dimensões válidas/busca/Top N/destaques conforme CatalogLive,Runtime pendente
+F113.explore.maps.coropletico,F113,explore/maps,coropletico,/estudio#mapas-coropletico,"Mapa individual do catálogo; preservar seleção, medida e escopo",Runtime pendente
+F114.explore.maps.bolhas,F114,explore/maps,bolhas,/estudio#mapas-bolhas,"Mapa individual do catálogo; preservar seleção, medida e escopo",Runtime pendente
+F115.explore.maps.hexbin,F115,explore/maps,hexbin,/estudio#mapas-hexbin,"Mapa individual do catálogo; preservar seleção, medida e escopo",Runtime pendente
+F116.explore.maps.grade-ufs,F116,explore/maps,grade-ufs,/estudio#mapas-grade-ufs,"Mapa individual do catálogo; preservar seleção, medida e escopo",Runtime pendente
+F117.explore.maps.bivariado,F117,explore/maps,bivariado,/estudio#mapas-bivariado,"Mapa individual do catálogo; preservar seleção, medida e escopo",Runtime pendente
+F118.explore.maps.espigoes,F118,explore/maps,espigoes,/estudio#mapas-espigoes,"Mapa individual do catálogo; preservar seleção, medida e escopo",Runtime pendente
+F119.explore.maps.extrusao,F119,explore/maps,extrusao,/estudio#mapas-extrusao,"Mapa individual do catálogo; preservar seleção, medida e escopo",Runtime pendente
+F003.modo.daily,F003,core.js:DashboardContent; market-pulse; overview-insights; atlas-hero,daily,/panorama#f003,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F003.modo.monthly,F003,core.js:DashboardContent; market-pulse; overview-insights; atlas-hero,monthly,/panorama#f003,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F003.modo.annual,F003,core.js:DashboardContent; market-pulse; overview-insights; atlas-hero,annual,/panorama#f003,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F008.modo.count,F008,evolution-views.js:HistoryView,count,/evolucao#f008,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F008.modo.marketShare,F008,evolution-views.js:HistoryView,marketShare,/evolucao#f008,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F011.modo.stackedArea,F011,evolution-views.js:HistoryView,stackedArea,/evolucao#f011,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F011.modo.stackedBar,F011,evolution-views.js:HistoryView,stackedBar,/evolucao#f011,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F011.modo.volume,F011,evolution-views.js:HistoryView,volume,/evolucao#f011,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F012.modo.stackedArea,F012,evolution-views.js:HistoryView,stackedArea,/evolucao#f012,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F012.modo.stackedBar,F012,evolution-views.js:HistoryView,stackedBar,/evolucao#f012,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F012.modo.volume,F012,evolution-views.js:HistoryView,volume,/evolucao#f012,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F026.modo.day,F026,evolution-brush.js; evolution-years.js,day,/evolucao#f026,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F026.modo.month,F026,evolution-brush.js; evolution-years.js,month,/evolucao#f026,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F026.modo.year,F026,evolution-brush.js; evolution-years.js,year,/evolucao#f026,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F027.modo.ano-em-foco,F027,evolution-brush.js; evolution-years.js,ano-em-foco,/evolucao#f027,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F027.modo.comparar-anos,F027,evolution-brush.js; evolution-years.js,comparar-anos,/evolucao#f027,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F042.modo.dois-grupos,F042,history-analyses.js:ShareDecomposition;ModelDuel,dois-grupos,/concorrencia#f042,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F042.modo.tres-grupos,F042,history-analyses.js:ShareDecomposition;ModelDuel,tres-grupos,/concorrencia#f042,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F042.modo.quatro-grupos,F042,history-analyses.js:ShareDecomposition;ModelDuel,quatro-grupos,/concorrencia#f042,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F044.modo.marca,F044,ranking-views.js,marca,/concorrencia#f044,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F044.modo.modelo,F044,ranking-views.js,modelo,/concorrencia#f044,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F044.modo.grupo_modelo,F044,ranking-views.js,grupo_modelo,/concorrencia#f044,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F045.modo.count,F045,ranking-views.js,count,/concorrencia#f045,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F045.modo.share,F045,ranking-views.js,share,/concorrencia#f045,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F046.modo.marca,F046,ranking-views.js,marca,/concorrencia#f046,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F046.modo.modelo,F046,ranking-views.js,modelo,/concorrencia#f046,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F046.modo.grupo_modelo,F046,ranking-views.js,grupo_modelo,/concorrencia#f046,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F053.modo.bd_segmento,F053,core.js:SegmentPyramid;ExplorationView,bd_segmento,/composicao#f053,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F053.modo.bd_carroceria,F053,core.js:SegmentPyramid;ExplorationView,bd_carroceria,/composicao#f053,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F070.modo.UF,F070,primary-map.js;leader-map.js,UF,/territorios#f070,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F070.modo.municipio,F070,primary-map.js;leader-map.js,municipio,/territorios#f070,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F070.modo.count,F070,primary-map.js;leader-map.js,count,/territorios#f070,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F070.modo.selection,F070,primary-map.js;leader-map.js,selection,/territorios#f070,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F070.modo.per1000,F070,primary-map.js;leader-map.js,per1000,/territorios#f070,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F070.modo.channel,F070,primary-map.js;leader-map.js,channel,/territorios#f070,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F085.modo.line,F085,core.js:ExplorationView;LinkedRankings,line,/estudio#f085,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F085.modo.bar,F085,core.js:ExplorationView;LinkedRankings,bar,/estudio#f085,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F085.modo.horizontalBar,F085,core.js:ExplorationView;LinkedRankings,horizontalBar,/estudio#f085,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F085.modo.area,F085,core.js:ExplorationView;LinkedRankings,area,/estudio#f085,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F085.modo.stackedArea,F085,core.js:ExplorationView;LinkedRankings,stackedArea,/estudio#f085,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F085.modo.stackedBar,F085,core.js:ExplorationView;LinkedRankings,stackedBar,/estudio#f085,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F085.modo.stackedBar100,F085,core.js:ExplorationView;LinkedRankings,stackedBar100,/estudio#f085,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F085.modo.table,F085,core.js:ExplorationView;LinkedRankings,table,/estudio#f085,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F086.modo.count,F086,core.js:ExplorationView;LinkedRankings,count,/estudio#f086,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F086.modo.share,F086,core.js:ExplorationView;LinkedRankings,share,/estudio#f086,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F086.modo.periodA,F086,core.js:ExplorationView;LinkedRankings,periodA,/estudio#f086,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F086.modo.periodB,F086,core.js:ExplorationView;LinkedRankings,periodB,/estudio#f086,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F087.modo.bd_segmento,F087,core.js:ExplorationView;LinkedRankings,bd_segmento,/estudio#f087,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F087.modo.bd_carroceria,F087,core.js:ExplorationView;LinkedRankings,bd_carroceria,/estudio#f087,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F087.modo.strict,F087,core.js:ExplorationView;LinkedRankings,strict,/estudio#f087,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F087.modo.inclusive,F087,core.js:ExplorationView;LinkedRankings,inclusive,/estudio#f087,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F087.modo.previous,F087,core.js:ExplorationView;LinkedRankings,previous,/estudio#f087,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F087.modo.year,F087,core.js:ExplorationView;LinkedRankings,year,/estudio#f087,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F123.modo.registrations,F123,scenarios.js:ScenarioDiagnostic;ScenarioDiagnosticHistorical,registrations,/perspectivas#f123,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F123.modo.mitsubishi,F123,scenarios.js:ScenarioDiagnostic;ScenarioDiagnosticHistorical,mitsubishi,/perspectivas#f123,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F123.modo.yoy,F123,scenarios.js:ScenarioDiagnostic;ScenarioDiagnosticHistorical,yoy,/perspectivas#f123,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F135.modo.2D,F135,scenarios.js:ScenarioRegional;ScenarioRegionalHistorical;ScenarioSpatial,2D,/perspectivas#f135,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F135.modo.extrusao,F135,scenarios.js:ScenarioRegional;ScenarioRegionalHistorical;ScenarioSpatial,extrusao,/perspectivas#f135,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F142.modo.k4,F142,scenarios.js:ScenarioRegional;ScenarioRegionalHistorical;ScenarioSpatial,k4,/perspectivas#f142,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F142.modo.k8,F142,scenarios.js:ScenarioRegional;ScenarioRegionalHistorical;ScenarioSpatial,k8,/perspectivas#f142,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F142.modo.k12,F142,scenarios.js:ScenarioRegional;ScenarioRegionalHistorical;ScenarioSpatial,k12,/perspectivas#f142,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F144.modo.mercado,F144,scenarios.js:ScenarioForecasts;ScenarioHierarchy,mercado,/perspectivas#f144,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F144.modo.mitsubishi,F144,scenarios.js:ScenarioForecasts;ScenarioHierarchy,mitsubishi,/perspectivas#f144,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F144.modo.share,F144,scenarios.js:ScenarioForecasts;ScenarioHierarchy,share,/perspectivas#f144,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F153.modo.forecast,F153,scenarios.js:ScenarioSimulations;core.js:Phase2View,forecast,/perspectivas#f153,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F154.modo.competition,F154,scenarios.js:ScenarioSimulations;core.js:Phase2View,competition,/perspectivas#f154,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F155.modo.regional,F155,scenarios.js:ScenarioSimulations;core.js:Phase2View,regional,/perspectivas#f155,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F156.modo.diffusion,F156,scenarios.js:ScenarioSimulations;core.js:Phase2View,diffusion,/perspectivas#f156,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F157.modo.corrida,F157,animations.js:AnimationWorkspace,corrida,/movimento#f157,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F158.modo.lideranca,F158,animations.js:AnimationWorkspace,lideranca,/movimento#f158,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F159.modo.bolhas,F159,animations.js:AnimationWorkspace,bolhas,/movimento#f159,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F159.modo.trilha,F159,animations.js:AnimationWorkspace,trilha,/movimento#f159,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F160.modo.tecnologia,F160,animations.js:AnimationWorkspace,tecnologia,/movimento#f160,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F160.modo.carroceria,F160,animations.js:AnimationWorkspace,carroceria,/movimento#f160,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F160.modo.porte,F160,animations.js:AnimationWorkspace,porte,/movimento#f160,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F160.modo.origem,F160,animations.js:AnimationWorkspace,origem,/movimento#f160,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F160.modo.canal,F160,animations.js:AnimationWorkspace,canal,/movimento#f160,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F161.modo.UF,F161,animations.js:AnimationWorkspace,UF,/movimento#f161,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F161.modo.municipio,F161,animations.js:AnimationWorkspace,municipio,/movimento#f161,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F162.modo.dia,F162,animations.js:AnimationWorkspace,dia,/movimento#f162,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F162.modo.mes,F162,animations.js:AnimationWorkspace,mes,/movimento#f162,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F162.modo.ano,F162,animations.js:AnimationWorkspace,ano,/movimento#f162,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F162.modo.mensal,F162,animations.js:AnimationWorkspace,mensal,/movimento#f162,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F162.modo.YTD,F162,animations.js:AnimationWorkspace,YTD,/movimento#f162,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F162.modo.preset-picapes,F162,animations.js:AnimationWorkspace,preset-picapes,/movimento#f162,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
+F162.modo.preset-SUV,F162,animations.js:AnimationWorkspace,preset-SUV,/movimento#f162,Modo/controle conhecido; não significa figura independente nem combinação cartesiana válida,Runtime pendente
